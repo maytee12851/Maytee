@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StylePort.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body>
+
+    <!-- ************************************ header *********************************** -->
+
+    <header>
+        <nav>
+            <!-- <div class="container"> -->
+                <div class="header-grid">
+                    <div class="name-header">
+                        <span>PORTFOLIO</span>
+                    </div>
+                    <ul class="menu-header">
+                        <li><a href="Main.html">HOME</a></li>
+                        <li><a href="Resume.html">RESUME</a></li>
+                        <li><a href="Project.html">PROJECT</a></li>
+                        <li><a href="Main.html#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                    
+            <!-- </div> -->
+        </nav>
+    </header>
+
+    <!-- ************************************ Project *********************************** -->
+
+    <div class="project">
+        <div class="container">
+
+            <div class="all-project">
+                <div class="project-header">
+                    <h1>โปรเจคที่เคยทำและอยากจะทำ</h1>
+                    <div class="underline-project"></div>
+                </div>
+    
+                <!-- ******************************** Clone google ******************************* -->
+
+                <div class="project-pic" data-aos="fade-right">
+                    <img id="myImg" src="./pic/Google.JPG" alt="google">
+                </div>
+
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                </div>
+    
+                <div class="project-text" data-aos="fade-right">
+                    <div class="project-text1">
+                        <h1>Clone Google</h1>
+                        <p>ทดลองฝึกการ Clone Website Google</p>
+                    </div>
+                </div>
+
+                <!-- ******************************** BookOnline ******************************* -->
+
+                <div class="project-text"data-aos="fade-left">
+                    <div class="project-text2">
+                        <h1>โปรเจคที่อยากจะทำเกี่ยวกับเว็บไซต์</h1>
+                        <p>เป็นเว็บไซต์ที่นำห้องสมุดของแต่ละมหาวิทยาลัยมาทำเป็นห้องสมุดออนไลน์ และนำมารวบรวมภายในเว็บไซต์เดียวเพื่อที่จะสามารถค้นหาข้อมูลได้ง่าย สามารถค้นหาหนังสือได้เพียงแค่พิมพ์ชื่อหนังสือที่ต้องการค้นหาลงไป และมีฟังก์ชั่นการค้นหาหนังสือในแต่ละประเภทที่เราต้องการหาข้อมูล</p>
+                    </div>
+                </div>
+
+                <div class="project-pic2"data-aos="fade-left">
+                    <img id="myImg1" src="./pic/BookOnline1.jpg" alt="google">
+                </div>
+
+                <div id="myModal1" class="modal1">
+                    <span class="close1">&times;</span>
+                    <img class="modal-content1" id="img02">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="website.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration : 1500
+        });
+    </script>
+</body>
+</html>

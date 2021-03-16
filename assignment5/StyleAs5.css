@@ -1,0 +1,67 @@
+body{
+    background: #CFCFCF;
+    font-family: 'Luckiest Guy', cursive;
+    color: #464040;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 100px;
+}
+
+.topic{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+#topic1.topicA{
+    border-bottom: 3px solid rgb(170, 135, 135);
+    color: #464040;
+}
+
+.comment1{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+#comment1.commentA{
+    border-bottom: 3px solid rgb(170, 135, 135);
+    color: #464040;
+}
+
+.comment2{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+#comment2.commentB{
+    border-bottom: 3px solid rgb(170, 135, 135);
+    color: #464040;
+}
+
+#text1{
+    background: #CFCFCF;
+    color: #464040;
+    width: 500px;
+    height: 45px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 36px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+}
+
+button[type=button]{
+    width: 120px;
+    height: 40px;
+    color: whitesmoke;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 26px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button[type=button]:hover{
+    box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -webkit-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -moz-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+}
