@@ -768,7 +768,7 @@ footer{
     /************************************ Resume ***********************************/
 
     .resume{
-        margin-top: 30%;
+        margin-top: 10%;
     }
     
     .pic-resume img{
@@ -993,7 +993,7 @@ footer{
     /************************************ Resume ***********************************/
 
     .resume{
-        margin-top: 75%;
+        margin-top: 15%;
     }
     
     .pic-resume img{
@@ -1003,7 +1003,7 @@ footer{
     /************************************ Project ***********************************/
 
     .project{
-        margin-top: 80%;
+        margin-top: 10%;
         height: auto;
     }
 
@@ -1019,6 +1019,8 @@ footer{
     .project-header h1{
         width: 100%;
         font-size: 32px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .project-pic{
