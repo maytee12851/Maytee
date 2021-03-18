@@ -521,6 +521,7 @@ footer{
     color: #333;
     font-size: 36px;
     transition: 0.35s;
+    cursor: pointer;
 }
 
 .project-text1 a{
