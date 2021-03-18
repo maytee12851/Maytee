@@ -456,7 +456,7 @@ footer{
 .modal{
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -571,7 +571,7 @@ footer{
 .modal1{
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     padding-top: 100px;
     left: 0;
     top: 0;
