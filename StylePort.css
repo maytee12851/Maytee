@@ -1383,6 +1383,14 @@ footer{
         width: 80%;
     }
 
+    .skill-item h2{
+        font-size: 34px;
+    }
+
+    .skill-item p{
+        font-size: 13px;
+    }
+
     /************************************ Assignment ***********************************/
 
     .port-header h1{
@@ -1637,6 +1645,14 @@ footer{
 
     .skill-item{
         width: 80%;
+    }
+
+    .skill-item h2{
+        font-size: 31px;
+    }
+
+    .skill-item p{
+        font-size: 12px;
     }
 
     /************************************ Assignment ***********************************/
