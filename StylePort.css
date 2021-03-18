@@ -453,37 +453,6 @@ footer{
     opacity: 0.7;
 }
 
-.modal{
-    display: none;
-    position: fixed;
-    z-index: 100;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
-
-.modal-content{
-    margin: auto;
-    display: block;
-    width: 70%;
-    max-width: 1500px;
-}
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
 .close:hover, .close:focus {
     color: #bbb;
     text-decoration: none;
@@ -506,10 +475,11 @@ footer{
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
+
 /************************************ text google ***********************************/
 
 .project-text{
-    width: 750px;
+    width: 650px;
 }
 
 .project-text1{
@@ -838,7 +808,7 @@ footer{
     }
 
     .project-text1 h1{
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .project-text1 p{
@@ -853,7 +823,7 @@ footer{
     }
 
     .project-text2 h1{
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .project-text2 p{
@@ -861,7 +831,488 @@ footer{
     }
 }
 
-/************************************ screen 400px ***********************************/
+/************************************ screen 992px ***********************************/
+
+@media only screen and (max-width : 992px){
+    .header-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+        position: relative;
+    }
+
+    .name-header{
+        margin: 0 auto;
+    }
+
+    ul.menu-header{
+        grid-template-columns: 1fr;
+    }
+
+    ul.menu-header li{
+        height: 50px;
+    }
+
+    .myself-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .Pic1{
+        margin-top: 3%;
+        text-align: center;
+    }
+    .Pic1 img{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .myselftext{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .myselftext h1{
+        font-size: 45px;
+    }
+
+    .myselftext p{
+        font-size: 36px;
+    }
+
+    .myselftext h2{
+        font-size: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /************************************ Skills ***********************************/
+
+    .skill-header h1{
+        font-size: 54px;
+        text-align: center;
+    }
+
+    .skill-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .skill-item{
+        width: 80%;
+    }
+
+    /************************************ Assignment ***********************************/
+
+    .port-header h1{
+        font-size: 54px;
+        text-align: center;
+    }
+
+    .port-header p{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .work-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .work-item img{
+        width: 450px;
+    }
+
+    .work-item p{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /************************************ Contact & References ***********************************/
+    
+    footer{
+        height: 430px;
+    }
+    
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .contact-header h1{
+        font-size: 40px;
+    }
+
+    .item{
+        margin-top: 5px;
+    }
+
+    .contact-item{
+        padding-left: 40px;
+    }
+
+    .contact-item i{
+        font-size: 50px;
+    }
+
+    .contact-item p{
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+
+    .ref-text{
+        padding-left: 40px;
+    }
+
+    .ref-text h3{
+        font-size: 20px;
+    }
+
+    /************************************ Resume ***********************************/
+
+    .resume{
+        margin-top: 10%;
+    }
+    
+    .pic-resume img{
+        width: 100%;
+    }
+
+    /************************************ Project ***********************************/
+
+    .project{
+        margin-top: 5%;
+        height: auto;
+    }
+
+    .all-project{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .project-header{
+        width: 100%;
+    }
+
+    .project-header h1{
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .project-pic{
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-pic img{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .project-pic2{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .project-pic2 img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .project-text1{
+        padding-left: 100px;
+        padding-right: 60px;
+        margin-top: 30px;
+    }
+
+    .project-text1 h1{
+        font-size: 32px;
+    }
+
+    .project-text1 p{
+        font-size: 20px;
+    }
+
+    .project-text2{
+        margin-top: 50px;
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+
+    .project-text2 h1{
+        font-size: 32px;
+    }
+
+    .project-text2 p{
+        font-size: 20px;
+    }
+}
+
+/************************************ screen 580px ***********************************/
+
+@media only screen and (max-width : 580px){
+    .header-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+    }
+
+    .name-header{
+        margin: 0 auto;
+    }
+
+    ul.menu-header{
+        grid-template-columns: 1fr;
+    }
+
+    ul.menu-header li{
+        height: 50px;
+    }
+
+    .myself-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .Pic1{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .Pic1 img{
+        width: 300px;
+    }
+
+    .myselftext{
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .myselftext h1{
+        font-size: 40px;
+    }
+
+    .myselftext p{
+        font-size: 32px;
+    }
+
+    .myselftext h2{
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /************************************ Skills ***********************************/
+
+    .skill-header h1{
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .skill-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .skill-item{
+        width: 80%;
+    }
+
+    /************************************ Assignment ***********************************/
+
+    .port-header h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .port-header p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .work-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .work-item img{
+        width: 350px;
+    }
+
+    .work-item p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /************************************ Contact & References ***********************************/
+
+    footer{
+        height: 430px;
+    }
+    
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-header h1{
+        font-size: 40px;
+    }
+
+    .item{
+        margin-top: 10px;
+    }
+
+    .contact-item{
+        padding-left: 10px;
+    }
+
+    .contact-item i{
+        font-size: 26px;
+    }
+
+    .contact-item p{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .ref-text{
+        padding-left: 10px;
+    }
+
+    .ref-text h3{
+        font-size: 16px;
+    }
+
+    /************************************ Resume ***********************************/
+
+    .resume{
+        margin-top: 10%;
+    }
+    
+    .pic-resume img{
+        width: 100%;
+    }
+
+    /************************************ Project ***********************************/
+
+    .project{
+        margin-top: 10%;
+        height: auto;
+    }
+
+    .all-project{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .project-header{
+        width: 100%;
+    }
+
+    .project-header h1{
+        width: 100%;
+        font-size: 32px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .project-pic{
+        text-align: center;
+    }
+
+    .project-pic img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    /************************************ Project2 ***********************************/
+
+    .project-pic2{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .project-pic2 img{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .project-text1{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+
+    .project-text1 h1{
+        font-size: 28px;
+    }
+
+    .project-text1 p{
+        font-size: 18px;
+    }
+
+    .project-text2{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-text2 h1{
+        font-size: 28px;
+    }
+
+    .project-text2 p{
+        font-size: 18px;
+    }
+
+    .modal1{
+        display: none;
+        position: fixed;
+        z-index: 99;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content1{
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 1200px;
+    }
+    
+    .close1 {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+}
+
+/************************************ screen 420px ***********************************/
 
 @media only screen and (max-width : 420px){
     
@@ -918,7 +1369,7 @@ footer{
     /************************************ Skills ***********************************/
 
     .skill-header h1{
-        font-size: 50px;
+        font-size: 44px;
         text-align: center;
     }
 
@@ -935,12 +1386,12 @@ footer{
     /************************************ Assignment ***********************************/
 
     .port-header h1{
-        font-size: 45px;
+        font-size: 36px;
         text-align: center;
     }
 
     .port-header p{
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -950,7 +1401,7 @@ footer{
     }
 
     .work-item img{
-        width: 350px;
+        width: 300px;
     }
 
     .work-item p{
@@ -974,7 +1425,7 @@ footer{
     }
 
     .contact-header h1{
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .item{
@@ -986,7 +1437,7 @@ footer{
     }
 
     .contact-item i{
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .contact-item p{
@@ -999,13 +1450,13 @@ footer{
     }
 
     .ref-text h3{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /************************************ Resume ***********************************/
 
     .resume{
-        margin-top: 15%;
+        margin-top: 10%;
     }
     
     .pic-resume img{
@@ -1045,6 +1496,8 @@ footer{
         margin-top: 10%;
     }
 
+    /************************************ Project2 ***********************************/
+
     .project-pic2{
         text-align: center;
         margin-top: 30px;
@@ -1057,30 +1510,317 @@ footer{
     }
 
     .project-text1{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 40px;
     }
 
     .project-text1 h1{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .project-text1 p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .project-text2{
         text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-text2 h1{
+        font-size: 28px;
+    }
+
+    .project-text2 p{
+        font-size: 18px;
+    }
+
+    .modal1{
+        display: none;
+        position: fixed;
+        z-index: 99;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content1{
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 1200px;
+    }
+    
+    .close1 {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    /************************************ screen 350px ***********************************/
+
+@media only screen and (max-width : 350px){
+    
+    .header-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+    }
+
+    .name-header{
+        margin: 0 auto;
+    }
+
+    ul.menu-header{
+        grid-template-columns: 1fr;
+    }
+
+    ul.menu-header li{
+        height: 50px;
+    }
+
+    .myself-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .Pic1{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .Pic1 img{
+        width: 300px;
+    }
+
+    .myselftext{
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .myselftext h1{
+        font-size: 36px;
+    }
+
+    .myselftext p{
+        font-size: 32px;
+    }
+
+    .myselftext h2{
+        font-size: 16px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .project-text2 h1{
+    /************************************ Skills ***********************************/
+
+    .skill-header h1{
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .skill-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .skill-item{
+        width: 80%;
+    }
+
+    /************************************ Assignment ***********************************/
+
+    .port-header h1{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .port-header p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .work-grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .work-item img{
+        width: 300px;
+    }
+
+    .work-item p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /************************************ Contact & References ***********************************/
+
+    footer{
+        height: 430px;
+    }
+    
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-header h1{
+        font-size: 36px;
+    }
+
+    .item{
+        margin-top: 10px;
+    }
+
+    .contact-item{
+        padding-left: 10px;
+    }
+
+    .contact-item i{
+        font-size: 24px;
+    }
+
+    .contact-item p{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .ref-text{
+        padding-left: 10px;
+    }
+
+    .ref-text h3{
+        font-size: 15px;
+    }
+
+    /************************************ Resume ***********************************/
+
+    .resume{
+        margin-top: 10%;
+    }
+    
+    .pic-resume img{
+        width: 100%;
+    }
+
+    /************************************ Project ***********************************/
+
+    .project{
+        margin-top: 10%;
+        height: auto;
+    }
+
+    .all-project{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .project-header{
+        width: 100%;
+    }
+
+    .project-header h1{
+        width: 100%;
         font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .project-pic{
+        text-align: center;
+    }
+
+    .project-pic img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    /************************************ Project2 ***********************************/
+
+    .project-pic2{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .project-pic2 img{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .project-text1{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+
+    .project-text1 h1{
+        font-size: 28px;
+    }
+
+    .project-text1 p{
+        font-size: 18px;
+    }
+
+    .project-text2{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-text2 h1{
+        font-size: 28px;
     }
 
     .project-text2 p{
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .modal1{
+        display: none;
+        position: fixed;
+        z-index: 99;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content1{
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 1200px;
+    }
+    
+    .close1 {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
     }
 }
