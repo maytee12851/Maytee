@@ -520,6 +520,16 @@ footer{
     font-family: 'Prompt', sans-serif;
     color: #333;
     font-size: 36px;
+    transition: 0.35s;
+}
+
+.project-text1 a{
+    text-decoration: none;
+}
+
+.project-text1 h1:hover{
+    opacity: 0.5;
+    transition: all 0.25s;
 }
 
 .project-text1 p{
