@@ -1,0 +1,225 @@
+.Top{
+    height: 50px;
+    width: 100%;
+}
+
+.Top1{
+    display: inline-flex;
+    float: right;
+}
+
+.gmail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+    line-height: 20px;
+}
+
+.gmail a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+.gmail a:hover{
+    text-decoration: underline;
+}
+
+.searchtop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+    padding-left: 15px;
+}
+
+.iconapp img{
+    width: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+.sign{
+    margin-top: -15px;
+}
+
+.sign h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 0px solid none;
+    color: rgb(255, 255, 255);
+    background: #1a73e8;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign h4:hover{
+    background: #4285f4;
+}
+
+.cover img{
+    height: 210px;
+}
+
+.cover{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.form{
+    width: 580px;
+    margin-top: 30px;
+    margin-left: 660px;
+    border-radius: 50px;
+    border: 1px solid rgb(217, 217, 230);
+    display: flex;
+}
+
+.form:hover{
+    box-shadow: -4px 21px 129px 24px rgba(227,215,215,0.76);
+    -webkit-box-shadow: -4px 21px 129px 24px rgba(227,215,215,0.76);
+    -moz-box-shadow: -4px 21px 129px 24px rgba(227,215,215,0.76);
+}
+
+.form input{
+    width: 580px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.form img{
+    width: 20px;
+    height: 20px;
+    padding-top: 12px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+img:nth-child(3){
+    width: 30px;
+    height: 20px;
+    opacity: 0.5;
+    padding-right: 10px;
+}
+
+img:nth-child(4){
+    width: 15px;
+    height: 20px;
+    padding-right: 20px;
+    opacity: 1;
+}
+
+.search{
+    height: 60px;
+    margin-top: 30px;
+}
+
+.search0{
+    height: 70px;
+    text-align: center;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search1{
+    border: 1px solid white;
+    margin-right: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search1:hover{
+    border: 1px solid rgb(198, 198, 214);
+}
+
+.search2{
+    border: 1px solid white;
+    margin-left: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search2:hover{
+    border: 1px solid rgb(198, 198, 214);
+}
+
+.undersearch{
+    width: 100%;
+    height: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+    margin-top: 0px;
+}
+
+span.b{
+    color: #1a0dab;
+}
+
+.last{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+}
+
+.last1{
+    padding-left: 27px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.last2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastleft{
+    padding-left: 15px;
+}
+
+.lastleft span{
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.lastright{
+    padding-right: 15px;
+}
+
+.lastright span{
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.lastleft a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+.lastleft a:hover{
+    text-decoration: underline ;
+}
+
+.lastright a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+.lastright a:hover{
+    text-decoration: underline;
+}
