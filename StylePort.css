@@ -301,11 +301,6 @@ ul.menu-header li a:hover:after{
     filter: brightness(0.65);
 }
 
-/* .work-item:hover , img:hover{
-    background: steelblue;
-    opacity: 0.35;
-} */
-
 /************************************ Contact & References ***********************************/
 
 footer{
@@ -492,7 +487,6 @@ footer{
     font-size: 36px;
     transition: 0.35s;
     cursor: pointer;
-    /* text-decoration: underline; */
 }
 
 .project-text1 a{
@@ -1710,7 +1704,7 @@ footer{
     }
 
     .Pic1 img{
-        width: 300px;
+        width: 250px;
     }
 
     .myselftext{
@@ -1719,15 +1713,15 @@ footer{
     }
 
     .myselftext h1{
-        font-size: 36px;
-    }
-
-    .myselftext p{
         font-size: 32px;
     }
 
+    .myselftext p{
+        font-size: 30px;
+    }
+
     .myselftext h2{
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -1775,7 +1769,7 @@ footer{
     }
 
     .work-item img{
-        width: 300px;
+        width: 275px;
     }
 
     .work-item p{
